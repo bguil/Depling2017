@@ -5,3 +5,4 @@ _Enhanced UD Dependencies with Neutralized Diathesis Alternation_.
 
 The input data are taken from the release [r2.0-test](https://github.com/UniversalDependencies/UD_French-Sequoia/releases/tag/r2.0-test) of UD_French-Sequoia.
 The **Grew** system was used for the conversion.
+The rules are available at [gitlab.inria.fr](https://gitlab.inria.fr/grew/UDtoAUD).
