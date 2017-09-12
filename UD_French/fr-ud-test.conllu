@@ -437,7 +437,7 @@
 7	communication	communication	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
 9	aussi	aussi	ADV	_	_	10	advmod	_	_
-10	vouée	vouer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	15:nsubj:pass__obj|17:nsubj:pass__obj	_
+10	vouée	vouer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	15:nsubj|17:nsubj	_
 11	à	à	ADP	_	_	13	mark	15:mark|17:mark	_
 12	être	être	AUX	_	VerbForm=Inf	13	aux	15:aux|17:aux	_
 13	préservée	préserver	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	SpaceAfter=No
@@ -530,7 +530,7 @@
 21	jamais	jamais	ADV	_	Polarity=Neg	22	advmod	_	_
 22	empêché	empêcher	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 23	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
-24	ministres	ministre	NOUN	_	Gender=Masc|Number=Plur	22	obj	_	_
+24	ministres	ministre	NOUN	_	Gender=Masc|Number=Plur	22	obj	27:nsubj	_
 25	de	de	ADP	_	_	27	mark	_	_
 26	se	se	PRON	_	Person=3|PronType=Prs	27	obj	_	_
 27	rendre	rendre	VERB	_	VerbForm=Inf	22	xcomp	_	_
@@ -827,11 +827,11 @@
 6	;	;	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-test_00031
-# text = Il est 20 h 45 en territoire algérien.
+# text = Il est 20h45 en territoire algérien.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
-3	20	20	NUM	_	_	4	nummod	_	_
-4	h	heure	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+3	20	20	NUM	_	_	4	nummod	_	SpaceAfter=No
+4	h	heure	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 5	45	45	NUM	_	_	4	nummod	_	_
 6	en	en	ADP	_	_	7	case	_	_
 7	territoire	territoire	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
@@ -1141,7 +1141,7 @@
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	réalité	réalité	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 4	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	que	que	SCONJ	_	_	12	mark	_	_
+5	que	que	SCONJ	_	_	12	mark	15:mark	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Mauritanie	Mauritanie	PROPN	_	_	12	nsubj	_	_
 8	n'	ne	ADV	_	Polarity=Neg	12	advmod	_	SpaceAfter=No
@@ -1217,7 +1217,7 @@
 
 # sent_id = fr-ud-test_00049
 # text = Renommée par Warner France sous le nom de "La Ligue des Justiciers : La Nouvelle Génération", les 8 premiers épisodes de la série animée seront disponibles dès le 30 novembre prochain.
-1	Renommée	renommer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	30	acl	_	_
+1	Renommée	renommer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	30	advcl	_	_
 2	par	par	ADP	_	_	3	case	_	_
 3	Warner	Warner	PROPN	_	_	1	obl:agent__nsubj	_	_
 4	France	France	PROPN	_	_	3	flat:name	_	_
@@ -1241,13 +1241,13 @@
 21	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
 22	8	8	NUM	_	_	23	nummod	_	_
 23	premiers	premiers	NUM	_	_	24	amod	_	_
-24	épisodes	épisode	NOUN	_	Gender=Masc|Number=Plur	30	nsubj	_	_
+24	épisodes	épisode	NOUN	_	Gender=Masc|Number=Plur	30	nsubj	1:nsubj:pass__obj	_
 25	de	de	ADP	_	_	27	case	_	_
 26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	série	série	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
 28	animée	animé	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	_
 29	seront	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	30	cop	_	_
-30	disponibles	disponible	ADJ	_	Gender=Masc|Number=Plur	0	root	1:nsubj:pass__obj	_
+30	disponibles	disponible	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
 31	dès	dès	ADP	_	_	34	case	_	_
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
 33	30	30	NUM	_	_	34	nummod	_	_
@@ -1355,9 +1355,9 @@
 13	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = fr-ud-test_00054
-# text = 19 h 15.
-1	19	19	NUM	_	_	2	nummod	_	_
-2	h	heure	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+# text = 19h15.
+1	19	19	NUM	_	_	2	nummod	_	SpaceAfter=No
+2	h	heure	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 3	15	15	NUM	_	_	2	nummod	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -1365,13 +1365,13 @@
 # text = Les jeunes sahraouis participant à cette université ont lancé un appel à tous les acteurs politiques, dans la scène régionale et internationale, à se mobiliser pour défendre les droits sahraouis, notamment dans la région colonisée et mettre un terme à toutes les violations exercées contre le droit du peuple sahraouie à l'autodétermination, exhortant les Nations unies à organiser un référendum d'autodétermination libre et à mettre un terme à la dilapidation, par le Maroc, des richesses naturelles du Sahara Occidental.
 1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 2	jeunes	jeune	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
-3	sahraouis	sahraoui	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	4:nsubj	_
+3	sahraouis	sahraoui	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	4:nsubj|59:nsubj	_
 4	participant	participer	VERB	_	Tense=Pres|VerbForm=Part	3	acl	_	_
 5	à	à	ADP	_	_	7	case	_	_
 6	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
 7	université	université	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
 8	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
-9	lancé	lancer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	59:nsubj	_
+9	lancé	lancer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	appel	appel	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
 12	à	à	ADP	_	_	15	case	_	_
@@ -1422,7 +1422,7 @@
 56	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	57	det	_	SpaceAfter=No
 57	autodétermination	autodétermination	NOUN	_	Gender=Fem|Number=Sing	50	nmod	_	SpaceAfter=No
 58	,	,	PUNCT	_	_	9	punct	_	_
-59	exhortant	exhorter	VERB	_	Tense=Pres|VerbForm=Part	9	acl	_	_
+59	exhortant	exhorter	VERB	_	Tense=Pres|VerbForm=Part	9	advcl	_	_
 60	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	61	det	_	_
 61	Nations	Nations	PROPN	_	_	59	obj	64:nsubj|72:nsubj	_
 62	unies	uni	ADJ	_	Gender=Fem|Number=Plur	61	amod	_	_
@@ -2510,7 +2510,7 @@
 10	par	par	ADP	_	_	12	case	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	Maroc	Maroc	PROPN	_	_	9	obl:agent__nsubj	_	_
-13	en	en	ADP	_	_	14	case	_	_
+13	en	en	ADP	_	_	14	case	16:case	_
 14	1975	1975	NUM	_	_	9	obl	_	_
 15	et	et	CCONJ	_	_	16	cc	_	_
 16	1979	1979	NUM	_	_	14	conj	_	_
@@ -2649,7 +2649,7 @@
 
 # sent_id = fr-ud-test_00090
 # text = Tenue trois mois après la précédente réunion informelle de la Valette (Malte), cette nouvelle rencontre se déroule sous les auspices de l'envoyé personnel du secrétaire général des Nations unies pour le Sahara occidental, M. Christopher Ross, en présence des délégations des deux parties et des représentants des deux pays observateurs, l'Algérie et la Mauritanie.
-1	Tenue	tenir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	acl	_	_
+1	Tenue	tenir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	_
 2	trois	trois	NUM	_	_	3	nummod	_	_
 3	mois	mois	NOUN	_	Gender=Masc|Number=Plur	1	obl	_	_
 4	après	après	ADP	_	_	7	case	_	_
@@ -2666,9 +2666,9 @@
 15	,	,	PUNCT	_	_	20	punct	_	_
 16	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	18	det	_	_
 17	nouvelle	nouveau	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
-18	rencontre	rencontre	NOUN	_	Gender=Masc|Number=Plur	20	nsubj	_	_
+18	rencontre	rencontre	NOUN	_	Gender=Masc|Number=Plur	20	nsubj	1:nsubj:pass__obj	_
 19	se	se	PRON	_	Person=3|PronType=Prs	20	expl	_	_
-20	déroule	dérouler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	1:nsubj:pass__obj	_
+20	déroule	dérouler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 21	sous	sous	ADP	_	_	23	case	_	_
 22	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
 23	auspices	auspice	NOUN	_	Gender=Masc|Number=Plur	20	obl	_	_
@@ -2893,7 +2893,7 @@
 14	négociations	négociation	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	3	punct	_	_
 16	Rabat	Rabat	PROPN	_	_	17	nsubj	_	_
-17	bénéficiant	bénéficier	VERB	_	Tense=Pres|VerbForm=Part	3	acl	_	_
+17	bénéficiant	bénéficier	VERB	_	Tense=Pres|VerbForm=Part	3	advcl	_	_
 18-19	du	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	20	case	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
@@ -3600,15 +3600,15 @@
 
 # sent_id = fr-ud-test_00121
 # text = Prenant la parole, Charles Mwando Nsimba a sollicité un délai supplémentaire avant de répondre aux préoccupations soulevées, estimant que des éléments nouveaux y avaient été introduits.
-1	Prenant	prendre	VERB	_	Tense=Pres|VerbForm=Part	9	acl	_	_
+1	Prenant	prendre	VERB	_	Tense=Pres|VerbForm=Part	9	advcl	_	_
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	parole	parole	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	9	punct	_	_
-5	Charles	Charles	PROPN	_	_	9	nsubj	_	_
+5	Charles	Charles	PROPN	_	_	9	nsubj	1:nsubj|21:nsubj	_
 6	Mwando	Mwando	PROPN	_	_	5	flat:name	_	_
 7	Nsimba	Nsimba	PROPN	_	_	5	flat:name	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
-9	sollicité	solliciter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	1:nsubj|21:nsubj	_
+9	sollicité	solliciter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	délai	délai	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
 12	supplémentaire	supplémentaire	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
@@ -3621,7 +3621,7 @@
 18	préoccupations	préoccupation	NOUN	_	Gender=Fem|Number=Plur	15	obl	19:nsubj:pass__obj	_
 19	soulevées	soulever	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	18	acl	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	9	punct	_	_
-21	estimant	estimer	VERB	_	Tense=Pres|VerbForm=Part	9	acl	_	_
+21	estimant	estimer	VERB	_	Tense=Pres|VerbForm=Part	9	advcl	_	_
 22	que	que	SCONJ	_	_	29	mark	_	_
 23	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
 24	éléments	élément	NOUN	_	Gender=Masc|Number=Plur	29	nsubj:pass__obj	_	_
@@ -4325,7 +4325,7 @@
 9	aura	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	18	advcl	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 11	premier	premier	NUM	_	_	12	nummod	_	_
-12	pas	pas	NOUN	_	Gender=Masc|Number=Sing	9	obj	14:nsubj:pass__obj	_
+12	pas	pas	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
 13	de	de	ADP	_	_	14	mark	_	_
 14	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	18	punct	_	_
@@ -4365,7 +4365,7 @@
 19	financière	financier	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	7	punct	_	_
 21	de	de	ADP	_	_	22	mark	_	_
-22	posséder	posséder	VERB	_	VerbForm=Inf	7	acl	_	_
+22	posséder	posséder	VERB	_	VerbForm=Inf	7	xcomp	_	_
 23	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 24	ou	ou	CCONJ	_	_	25	cc	_	_
 25	plusieurs	plusieurs	DET	_	Number=Plur	23	conj	26:det	_
@@ -4398,18 +4398,18 @@
 22	?	?	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-test_00146
-# text = De 10 h à 12 h et 14 h à 17 h office de tourisme.
+# text = De 10h à 12h et 14h à 17h office de tourisme.
 1	De	de	ADP	_	_	3	case	9:case	_
-2	10	10	NUM	_	_	3	nummod	_	_
+2	10	10	NUM	_	_	3	nummod	_	SpaceAfter=No
 3	h	heure	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
 4	à	à	ADP	_	_	6	case	_	_
-5	12	12	NUM	_	_	6	nummod	_	_
+5	12	12	NUM	_	_	6	nummod	_	SpaceAfter=No
 6	h	heure	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
 7	et	et	CCONJ	_	_	9	cc	_	_
-8	14	14	NUM	_	_	9	nummod	_	_
+8	14	14	NUM	_	_	9	nummod	_	SpaceAfter=No
 9	h	heure	NOUN	_	Gender=Masc|Number=Plur	3	conj	13:nmod	_
 10	à	à	ADP	_	_	12	case	_	_
-11	17	17	NUM	_	_	12	nummod	_	_
+11	17	17	NUM	_	_	12	nummod	_	SpaceAfter=No
 12	h	heure	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
 13	office	office	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 14	de	de	ADP	_	_	15	case	_	_
@@ -4817,7 +4817,7 @@
 19	Richard	Richard	PROPN	_	_	13	appos	_	_
 20	Juzanx	Juzanx	PROPN	_	_	19	flat:name	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	7	punct	_	_
-22	tandis	tandis	ADV	_	_	28	mark	_	_
+22	tandis	tandis	ADV	_	_	28	mark	36:mark	_
 23	que	que	SCONJ	_	_	22	fixed	_	_
 24	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
 25	80	80	NUM	_	_	26	nummod	_	_
@@ -5560,7 +5560,7 @@
 
 # sent_id = fr-ud-test_00187
 # text = Annoncé hier matin--dans les colonnes de L'Indépendant--comme un postulant sérieux à la succession de Franck Azéma qui s'apprête à rejoindre Clermont au terme de l'exercice actuel, il souligne dans un premier temps : " Il y a bien de la fumée, mais c'est sans feu !
-1	Annoncé	annoncer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	acl	_	_
+1	Annoncé	annoncer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	advcl	_	_
 2	hier	hier	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
 3	matin	matin	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
 4	--	--	PUNCT	_	_	7	punct	_	SpaceAfter=No
@@ -5596,8 +5596,8 @@
 33	exercice	exercice	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	_
 34	actuel	actuel	ADJ	_	Gender=Masc|Number=Sing	33	amod	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	37	punct	_	_
-36	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	nsubj	_	_
-37	souligne	souligner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	1:nsubj:pass__obj	_
+36	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	nsubj	1:nsubj:pass__obj	_
+37	souligne	souligner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 38	dans	dans	ADP	_	_	41	case	_	_
 39	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
 40	premier	premier	ADJ	_	Gender=Masc|Number=Sing	41	amod	_	_
@@ -5630,7 +5630,7 @@
 7	suivi	suivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
 8	de	de	ADP	_	_	10	case	_	_
 9	vos	son	DET	_	Gender=Fem|Number=Plur|PronType=Prs	10	nmod:poss	_	_
-10	coordonnées	coordonnée	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	_
+10	coordonnées	coordonnée	NOUN	_	Gender=Fem|Number=Plur	7	obl:agent__nsubj	_	_
 11-12	au	_	_	_	_	_	_	_	_
 11	à	à	ADP	_	_	13	case	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
@@ -6898,7 +6898,7 @@
 
 # sent_id = fr-ud-test_00245
 # text = J'ai donc choisi de ne faire qu'une coupe + balayage.
-1	J'	je	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	7:nsubj|10:nsubj|12:nsubj	SpaceAfter=No
+1	J'	je	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	7:nsubj	SpaceAfter=No
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
 3	donc	donc	ADV	_	_	4	advmod	_	_
 4	choisi	choisir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -7948,11 +7948,11 @@
 
 # sent_id = fr-ud-test_00291
 # text = j'ai appelé, croyant dans ma grande naîveté qu'un service serait proposé.
-1	j'	je	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+1	j'	je	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	5:nsubj	SpaceAfter=No
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
-3	appelé	appeler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	5:nsubj	SpaceAfter=No
+3	appelé	appeler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	croyant	croire	VERB	_	Tense=Pres|VerbForm=Part	3	acl	_	_
+5	croyant	croire	VERB	_	Tense=Pres|VerbForm=Part	3	advcl	_	_
 6	dans	dans	ADP	_	_	9	case	_	_
 7	ma	son	DET	_	Gender=Fem|Number=Sing|PronType=Prs	9	nmod:poss	_	_
 8	grande	grand	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
@@ -8479,7 +8479,7 @@
 16	et	et	CCONJ	_	_	19	cc	_	_
 17	de	de	ADP	_	_	19	case	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	V	V	NUM	_	_	15	conj	_	SpaceAfter=No
+19	V	V	NUM	_	_	15	conj	10:nmod	SpaceAfter=No
 20	)	)	PUNCT	_	_	15	punct	_	_
 21	de	de	ADP	_	_	23	case	_	_
 22	toute	tout	DET	_	Gender=Fem|Number=Sing	23	det	_	_
@@ -9840,7 +9840,7 @@
 3	d'	de	ADP	_	_	4	mark	_	SpaceAfter=No
 4	empêcher	empêcher	VERB	_	VerbForm=Inf	2	xcomp	_	_
 5	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
-6	chasseurs	chasseur	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
+6	chasseurs	chasseur	NOUN	_	Gender=Masc|Number=Plur	4	obj	11:nsubj	_
 7	de	de	ADP	_	_	8	case	_	_
 8	trésor	trésor	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 9	de	de	ADP	_	_	11	mark	_	_
@@ -10144,7 +10144,7 @@
 # sent_id = fr-ud-dev_01551
 # text = Le français est utilisé au travail par 50,8% des travailleurs et l'anglais par 41,7% alors que 2,3% des travailleurs utilisent les deux langues officielles.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	français	français	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass__obj	16:nsubj	_
+2	français	français	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass__obj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
 4	utilisé	utiliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5-6	au	_	_	_	_	_	_	_	_

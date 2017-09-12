@@ -4077,7 +4077,7 @@
 # sent_id = annodis.er_00408
 # text = Les passionnés de jardinage se réunissaient samedi, rue de la Justice, lors de l'assemblée générale de l'association des Jardiniers de France de Maxéville, afin de revenir sur les actions menées en 2002, et l'occasion également pour J.-P. Bruneau, son président, de présenter ses voeux à la dizaine d'adhérents présents.
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
-2	passionnés	passionné	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	32:nsubj|42:nsubj	_
+2	passionnés	passionné	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	32:nsubj	_
 3	de	de	ADP	_	_	4	case	_	_
 4	jardinage	jardinage	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 5	se	le/lui	PRON	_	Person=3|Reflex=Yes	6	expl	_	_
@@ -4690,7 +4690,7 @@
 11	du	du	DET	_	Gender=Masc|Number=Sing	12	det	_	_
 12	clopidogel	clopidogel	NOUN	_	Gender=Masc|Number=Sing	9	conj	5:nmod	_
 13	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
-14	médicaments	médicament	NOUN	_	Gender=Masc|Number=Plur	9	appos	12:appos|15:nsubj	_
+14	médicaments	médicament	NOUN	_	Gender=Masc|Number=Plur	9	appos	12:appos|15:nsubj|17:nsubj	_
 15	contribuant	contribuer	VERB	_	Tense=Pres|VerbForm=Part	14	acl	_	_
 16	à	à	ADP	_	_	17	mark	_	_
 17	prévenir	prévenir	VERB	_	VerbForm=Inf	15	xcomp	_	_
@@ -4768,7 +4768,7 @@
 
 # sent_id = emea-fr-dev_00037
 # text = Ceci peut contribuer à maintenir le flux sanguin vers le coeur chez les patients atteints d'angor ou d'une crise cardiaque et à améliorer l'efficacité de leur ICP.
-1	Ceci	ceci	PRON	_	Number=Sing|PronType=Dem	3	nsubj	_	_
+1	Ceci	ceci	PRON	_	Number=Sing|PronType=Dem	3	nsubj	5:nsubj|25:nsubj	_
 2	peut	pouvoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	contribuer	contribuer	VERB	_	VerbForm=Inf	0	root	_	_
 4	à	à	ADP	_	_	5	mark	_	_
@@ -5328,7 +5328,7 @@
 # sent_id = emea-fr-dev_00256
 # text = Des saignements mineurs ont été rapportés de façon très fréquente (1/10) et les saignements majeurs de façon fréquente (1/100 et < 1/10).
 1	Des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	2	det	_	_
-2	saignements	saignement	NOUN	_	Gender=Masc|Number=Plur	6	nsubj:pass__obj	16:nsubj	_
+2	saignements	saignement	NOUN	_	Gender=Masc|Number=Plur	6	nsubj:pass__obj	_	_
 3	mineurs	mineur	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
 4	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 5	été	être	AUX	_	Tense=Past|VerbForm=Part	6	aux:pass	_	_
@@ -5875,7 +5875,7 @@
 # sent_id = emea-fr-dev_00524
 # text = Le médecin administrant et surveillant le traitement, une omission est très peu probable.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	médecin	médecin	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	5:nsubj	_
+2	médecin	médecin	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	administrant	administrer	VERB	_	Tense=Pres|VerbForm=Part	10	acl	_	_
 4	et	et	CCONJ	_	_	5	cc	_	_
 5	surveillant	surveiller	VERB	_	Tense=Pres|VerbForm=Part	3	conj	10:acl	_
@@ -5883,7 +5883,7 @@
 7	traitement	traitement	NOUN	_	Gender=Masc|Number=Sing	3	obj	5:obj	SpaceAfter=No
 8	,	,	PUNCT	_	_	14	punct	_	_
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	omission	omission	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
+10	omission	omission	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	3:nsubj|5:nsubj	_
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 12	très	très	ADV	_	_	13	advmod	_	_
 13	peu	peu	ADV	_	_	14	advmod	_	_
@@ -7213,7 +7213,7 @@
 34	suivi	suivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl	_	_
 35	d'	de	ADP	_	_	37	case	_	SpaceAfter=No
 36	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
-37	diminution	diminution	NOUN	_	Gender=Fem|Number=Sing	34	obl	_	_
+37	diminution	diminution	NOUN	_	Gender=Fem|Number=Sing	34	obl:agent__nsubj	_	_
 38	rapide	rapide	ADJ	_	Number=Sing	37	amod	_	_
 39	inférieure	inférieur	ADJ	_	Gender=Fem|Number=Sing	37	amod	_	_
 40	à	à	ADP	_	_	42	case	_	_
@@ -7242,7 +7242,7 @@
 61	suivi	suivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	conj	22:acl	_
 62	d'	de	ADP	_	_	64	case	_	SpaceAfter=No
 63	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	64	det	_	_
-64	période	période	NOUN	_	Gender=Fem|Number=Sing	61	obl	65:nsubj:pass__obj	_
+64	période	période	NOUN	_	Gender=Fem|Number=Sing	61	obl:agent__nsubj	65:nsubj:pass__obj	_
 65	prolongée	prolonger	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	64	acl	_	_
 66	de	de	ADP	_	_	67	case	_	_
 67	concentrations	concentration	NOUN	_	Gender=Fem|Number=Plur	65	obl	71:nsubj	_
@@ -7986,12 +7986,12 @@
 3	eut	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	de	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
 5	nombreuses	nombreux	ADJ	_	Gender=Fem|Number=Plur	6	amod	_	_
-6	signatures	signature	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
+6	signatures	signature	NOUN	_	Gender=Fem|Number=Plur	3	obj	20:nsubj	_
 7	de	de	ADP	_	_	8	case	_	_
 8	motions	motion	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
-11	protestations	protestation	NOUN	_	Gender=Fem|Number=Plur	6	conj	3:obj	_
+11	protestations	protestation	NOUN	_	Gender=Fem|Number=Plur	6	conj	3:obj|20:nsubj	_
 12	devant	devant	ADP	_	_	14	case	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	chambre	chambre	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
@@ -8911,7 +8911,7 @@
 # sent_id = frwiki_50.1000_00305
 # text = Les fonctionnaires n'ayant pas à l'époque de statut protecteur et étant considérés comme des agents du gouvernement d'une part, les militaires ayant un rôle et un statut très particulier sous la Troisième République d'autre part (ils ne votent pas et n'ont pas le droit d'exprimer publiquement des opinions politiques -du moins pas au sens de factions- durant leur service actif), le général André avait paradoxalement le droit -du moins dans l'idée des prérogatives politiques de l'époque- du gouvernement sur ses agents, bien qu'il soit ici tout de même aux limites de la légalité de faire surveiller ses officiers, y compris dans leur vie privée, au nom de l'intérêt supérieur de l'État.
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
-2	fonctionnaires	fonctionnaire	NOUN	_	Number=Plur	4	nsubj	17:nsubj	_
+2	fonctionnaires	fonctionnaire	NOUN	_	Number=Plur	4	nsubj	_	_
 3	n'	ne	ADV	_	Polarity=Neg	4	advmod	_	SpaceAfter=No
 4	ayant	avoir	VERB	_	Tense=Pres|VerbForm=Part	77	acl	_	_
 5	pas	pas	ADV	_	Polarity=Neg	4	advmod	_	_
@@ -8989,7 +8989,7 @@
 74	)	)	PUNCT	_	_	79	punct	_	SpaceAfter=No
 75	,	,	PUNCT	_	_	79	punct	_	_
 76	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	77	det	_	_
-77	général	général	NOUN	_	Gender=Masc|Number=Sing	79	nsubj	_	_
+77	général	général	NOUN	_	Gender=Masc|Number=Sing	79	nsubj	4:nsubj|17:nsubj|27:nsubj	_
 78	André	André	PROPN	_	Gender=Masc|Number=Sing	77	flat:name	_	_
 79	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 80	paradoxalement	paradoxalement	ADV	_	_	79	advmod	_	_
@@ -9362,7 +9362,7 @@
 17	entre	entre	ADP	_	_	18	case	_	_
 18	1987	1987	NUM	_	NumType=Card	6	nmod	_	_
 19	et	et	CCONJ	_	_	20	cc	_	_
-20	1990	1990	NUM	_	NumType=Card	18	conj	_	SpaceAfter=No
+20	1990	1990	NUM	_	NumType=Card	18	conj	6:nmod	SpaceAfter=No
 21	,	,	PUNCT	_	_	2	punct	_	_
 22	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
 23	souligné	souligner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_

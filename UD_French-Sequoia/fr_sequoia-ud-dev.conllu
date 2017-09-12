@@ -226,7 +226,7 @@
 12	par	par	ADP	_	_	15	case	_	_
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
 14	deux	deux	NUM	_	NumType=Card	15	nummod	_	_
-15	établissements	établissement	NOUN	_	Gender=Masc|Number=Plur	9	conj	5:obl:agent__nsubj	SpaceAfter=No
+15	établissements	établissement	NOUN	_	Gender=Masc|Number=Plur	9	conj	5:advcl|5:obl:agent__nsubj	SpaceAfter=No
 16	,	,	PUNCT	_	_	5	punct	_	_
 17	mercredi	mercredi	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
 18	23	23	NUM	_	NumType=Card	17	nummod	_	_
@@ -414,7 +414,7 @@
 # sent_id = annodis.er_00192
 # text = La gare routière attend toujours ses illuminations, pas des guirlandes, mais des lampadaires pour que scolaires, usagés et conducteurs se sentent en sécurité.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	gare	gare	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	11:nsubj|15:nsubj	_
+2	gare	gare	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	routière	routier	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 4	attend	attendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	toujours	toujours	ADV	_	_	4	advmod	_	_
@@ -733,7 +733,7 @@
 3	affichant	afficher	VERB	_	Tense=Pres|VerbForm=Part	6	acl	_	_
 4	-6°C	-6°C	NOUN	_	_	3	obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
-6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3	7	nsubj	3:nsubj	_
 7	emmenait	emmener	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	gamins	gamin	NOUN	_	Gender=Masc|Number=Plur	7	obj	11:nsubj	_
@@ -1597,7 +1597,7 @@
 5	atteints	atteindre	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
 6	d'	de	ADP	_	_	8	case	_	SpaceAfter=No
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	syndrome	syndrome	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+8	syndrome	syndrome	NOUN	_	Gender=Masc|Number=Sing	5	obl:agent__nsubj	_	_
 9	coronarien	coronarien	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
 10	aigu	aigu	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
 11	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
@@ -1666,7 +1666,7 @@
 28	suivi	suivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	_
 29	d'	de	ADP	_	_	31	case	_	SpaceAfter=No
 30	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-31	perfusion	perfusion	NOUN	_	Gender=Fem|Number=Sing	28	obl	_	_
+31	perfusion	perfusion	NOUN	_	Gender=Fem|Number=Sing	28	obl:agent__nsubj	_	_
 32	intraveineuse	intraveineux	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	_
 33	à	à	ADP	_	_	37	case	_	_
 34	raison	raison	NOUN	_	Gender=Fem|Number=Sing	33	fixed	_	_
@@ -2041,7 +2041,7 @@
 31	suivi	suivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	conj	18:acl	_
 32	d'	de	ADP	_	_	34	case	_	SpaceAfter=No
 33	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
-34	perfusion	perfusion	NOUN	_	Gender=Fem|Number=Sing	31	obl	_	_
+34	perfusion	perfusion	NOUN	_	Gender=Fem|Number=Sing	31	obl:agent__nsubj	_	_
 35	de	de	ADP	_	_	37	case	_	_
 36	0.25	0.25	NUM	_	NumType=Card	37	nummod	_	_
 37	mg	mg	NOUN	_	Gender=Masc	34	nmod	_	SpaceAfter=No
@@ -2489,7 +2489,7 @@
 11	suivi	suivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
 12	d'	de	ADP	_	_	14	case	_	SpaceAfter=No
 13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	perfusion	perfusion	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+14	perfusion	perfusion	NOUN	_	Gender=Fem|Number=Sing	11	obl:agent__nsubj	_	_
 15	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 16	solution	solution	NOUN	_	Gender=Fem|Number=Sing	14	appos	_	_
 17	en	en	ADP	_	_	18	case	_	_
@@ -3722,7 +3722,7 @@
 35	suivie	suivre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
 36	d'	de	ADP	_	_	38	case	_	SpaceAfter=No
 37	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
-38	phase	phase	NOUN	_	Gender=Fem|Number=Sing	35	obl	_	_
+38	phase	phase	NOUN	_	Gender=Fem|Number=Sing	35	obl:agent__nsubj	_	_
 39	d'	de	ADP	_	_	40	case	_	SpaceAfter=No
 40	élimination	élimination	NOUN	_	Gender=Fem|Number=Sing	38	nmod	41:nsubj:pass__obj	_
 41	prolongée	prolonger	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	40	acl	_	_
@@ -4443,7 +4443,7 @@
 46	toujours	toujours	ADV	_	_	47	advmod	_	_
 47	situées	situer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	17	acl:relcl	_	_
 48	bien	bien	ADV	_	_	56	advmod	_	_
-49-50	au	_	_	_	_	_	_	_	_
+49-50	au	_	_	_	_	_	_	_	SpaceAfter=No
 49	à	à	ADP	_	_	56	case	_	_
 50	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	fixed	_	_
 51	-	-	PUNCT	_	_	49	fixed	_	SpaceAfter=No
@@ -6131,7 +6131,7 @@
 13	dossier	dossier	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
 14	:	:	PUNCT	_	_	4	punct	_	_
 15	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	réseau	réseau	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	22:nsubj:pass__obj|36:nsubj	_
+16	réseau	réseau	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	22:nsubj:pass__obj	_
 17	A	A	NOUN	_	_	16	nmod	_	_
 18	cible	cibler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
 19	Taïwan	Taïwan	PROPN	_	Gender=Masc|Number=Sing	18	obj	_	_
@@ -7601,7 +7601,7 @@
 
 # sent_id = Europar.550_00264
 # text = Il est fort probable, vu qu'ils sont accusés d'espionnage en faveur des États-Unis et d'Israël -lesquels ont par ailleurs démenti tout lien avec ces personnes- qu'ils soient condamnés à la peine capitale.
-1	Il	il	PRON	_	Gender=Masc|Impers=Yes|Number=Sing|Person=3	4	nsubj__expl	_	_
+1	Il	il	PRON	_	Gender=Masc|Impers=Yes|Number=Sing|Person=3	4	nsubj__expl	6:nsubj:pass	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	fort	fort	ADV	_	_	4	advmod	_	_
 4	probable	probable	ADJ	_	Number=Sing	0	root	_	SpaceAfter=No
@@ -9707,7 +9707,7 @@
 7	atteints	atteindre	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
 8	de	de	ADP	_	_	10	case	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	maladie	maladie	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+10	maladie	maladie	NOUN	_	Gender=Fem|Number=Sing	7	obl:agent__nsubj	_	_
 11	de	de	ADP	_	_	12	case	_	_
 12	Paget	Paget	PROPN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	17	punct	_	_
@@ -10462,10 +10462,10 @@
 11	les	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	élections	élection	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
 13	municipales	municipal	ADJ	_	Gender=Fem|Number=Plur	12	amod	_	_
-14	de	de	ADP	_	_	15	case	_	_
+14	de	de	ADP	_	_	15	case	17:case	_
 15	1989	1989	NUM	_	NumType=Card	12	nmod	_	_
 16	et	et	CCONJ	_	_	17	cc	_	_
-17	1995	1995	NUM	_	NumType=Card	15	conj	_	SpaceAfter=No
+17	1995	1995	NUM	_	NumType=Card	15	conj	12:nmod	SpaceAfter=No
 18	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = frwiki_50.1000_00269
